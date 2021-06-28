@@ -32,7 +32,7 @@ A set of **techniques and methods** are extensively used to solve each of these 
 
 The figure below shows an overview of the entire pipeline in an example scenario, which is extensible or modifiable by changing the types of data sources. After every module description, there is a short technical discussion about the frameworks that will be used to accomplish the task.
 
-![Pipeline Architecture](https://github.com/DataSciencePolimi/IDiOM/blob/main/architecture.png?raw=true)
+![Pipeline Architecture](https://github.com/DataSciencePolimi/IDiOM/blob/main/architecture.jpg?raw=true)
 
 
 ### 1. Data Collection
