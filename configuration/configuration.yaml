@@ -1,0 +1,80 @@
+collections_lang:
+- it
+- en
+- fr
+- de
+- nl
+- es
+mongourl: mongodb://localhost:27017
+most_frequent_word_extraction:
+  days_range: 30
+  last_ts_de: 1612051200
+  last_ts_en: 1612051200
+  last_ts_es: 1612051200
+  last_ts_fr: 1612051200
+  last_ts_it: 1612051200
+  last_ts_nl: 1612051200
+news_analyzer:
+  bert_model_path: core_modules/news_analyzer/bert_models/uncased_L-4_H-512_A-8
+scraper:
+  newsriver_api:
+  - sBBqsGXiYgF0Db5OV5tAw-YX7LO2k1G_-c4hiC3impbrVk28bIQ7TKT1p6Egz9vrn2pHZrSf1gT2PUujH1YaQA
+  - sBBqsGXiYgF0Db5OV5tAwyDwTBcmusmyclF2DJQMGXzq3w96QlMqw3KrGN772WETn2pHZrSf1gT2PUujH1YaQA
+  - sBBqsGXiYgF0Db5OV5tAwyDwTBcmusmyclF2DJQMGXwdTtlqoiFjohlircTRbjTVn2pHZrSf1gT2PUujH1YaQA
+  - sBBqsGXiYgF0Db5OV5tAw0qEsNkUdZjT9lAgq0YtkxoDyiGAcVcfuEZOaoHNRgd_n2pHZrSf1gT2PUujH1YaQA
+  - sBBqsGXiYgF0Db5OV5tAw0qEsNkUdZjT9lAgq0YtkxqeWhxI2MWq4hxoWw_PQDAMn2pHZrSf1gT2PUujH1YaQA
+  - sBBqsGXiYgF0Db5OV5tAw0qEsNkUdZjT9lAgq0Ytkxrcf3h1pG1qGQmmLqj3ICRtn2pHZrSf1gT2PUujH1YaQA
+  - sBBqsGXiYgF0Db5OV5tAw-Jb2dMH9MSyvbTy8S7glfSZsD2Xztv-s9OeE6OPqJ_-n2pHZrSf1gT2PUujH1YaQA
+  - sBBqsGXiYgF0Db5OV5tAw98Pu7pQ6o1uDGmdvkhOLWcZMnN4bs4Df4RXM5MdO6IBn2pHZrSf1gT2PUujH1YaQA
+  - sBBqsGXiYgF0Db5OV5tAw98Pu7pQ6o1uDGmdvkhOLWfIS2D_Ok7qp48XzMx5qypdn2pHZrSf1gT2PUujH1YaQA
+  - sBBqsGXiYgF0Db5OV5tAw98Pu7pQ6o1uDGmdvkhOLWf-l55FqqgcRrCcXbAnc1HXn2pHZrSf1gT2PUujH1YaQA
+  - sBBqsGXiYgF0Db5OV5tAw98Pu7pQ6o1uDGmdvkhOLWfn0E7tV7Zs1-2z9LIlrWCcn2pHZrSf1gT2PUujH1YaQA
+  - sBBqsGXiYgF0Db5OV5tAw98Pu7pQ6o1uDGmdvkhOLWfBmZfbnQnIZ9Db2oOHRsrhn2pHZrSf1gT2PUujH1YaQA
+  - sBBqsGXiYgF0Db5OV5tAw98Pu7pQ6o1uDGmdvkhOLWcfALlNit8EUXV4sOhH98HWn2pHZrSf1gT2PUujH1YaQA
+  - sBBqsGXiYgF0Db5OV5tAw98Pu7pQ6o1uDGmdvkhOLWdHjzDzgS2IrSmtJ3KkmwL9n2pHZrSf1gT2PUujH1YaQA
+  - sBBqsGXiYgF0Db5OV5tAw98Pu7pQ6o1uDGmdvkhOLWceAsFvO7LyF6xSfplknrvBn2pHZrSf1gT2PUujH1YaQA
+  - sBBqsGXiYgF0Db5OV5tAw98Pu7pQ6o1uDGmdvkhOLWfrUkmpnY6LF4rMVqaCsc_Qn2pHZrSf1gT2PUujH1YaQA
+  - sBBqsGXiYgF0Db5OV5tAw98Pu7pQ6o1uDGmdvkhOLWeJGV4qpYsh0osjAFNB44fLn2pHZrSf1gT2PUujH1YaQA
+  - sBBqsGXiYgF0Db5OV5tAwzFUXbd7H1JfChjkkDxLkfwVd-3ad7hq73CTVTIadygin2pHZrSf1gT2PUujH1YaQA
+  sort_by:
+    discover_date: discoverDate
+    read_time: metadata.readTime.seconds
+    score: _score
+  sort_order:
+    asc: ASC
+    desc: DESC
+  start_date: 2020-12-28 17:18:26.443000
+  start_date_de: 2020-12-18 21:30:08.722000
+  start_date_en: 2020-12-20 20:55:55.569000
+  start_date_es: 2020-12-21 11:46:29.322000
+  start_date_fr: 2020-12-20 18:16:37.232000
+  start_date_nl: 2021-01-06 00:08:05.491000
+  start_date_tr: 2019-12-01 00:00:00
+  turkish_news_urls:
+  - http://hurriyetdailynews.com
+  - https://hurriyet.com.tr
+  - https://www.ensonhaber.com
+  - https://www.haber7.com
+  - https://www.hurriyet.com.tr
+  - https://www.milliyet.com.tr
+  - https://www.yenisafak.com
+  - https://www.sozcu.com.tr/
+  - https://www.haberturk.com/
+  - https://www.haberler.com/
+  - https://www.star.com.tr/
+  - https://www.memurlar.net/
+  - https://www.aa.com.tr/
+  - https://www.cumhuriyet.com.tr/
+  - https://www.cnnturk.com/
+  - https://www.gazetevatan.com/
+  - https://www.haber3.com/
+  - https://www.sondakika.com/
+topic_extraction:
+  batch_size: 3000
+  lda_models_path: core_modules/topic_extraction/lda_checkpoint/
+  model_params:
+    alpha: 0.01
+    beta: 0.91
+    passes: 20
+    num_topics: 3
+    num_words: 10
