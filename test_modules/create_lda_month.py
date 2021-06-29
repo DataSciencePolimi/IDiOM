@@ -126,7 +126,6 @@ def main():
     with open("configuration/configuration.yaml") as f:
         CONFIG = yaml.load(f, Loader=yaml.FullLoader)
 
-    # mongourl = "mongodb://admin:adminpassword@localhost:27017"
     mongourl = CONFIG["mongourl"]
     MONGO_CLIENT = MongoClient(mongourl)
 
