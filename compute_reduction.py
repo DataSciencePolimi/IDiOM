@@ -12,7 +12,6 @@ import os
 
 class DimReductionProcess:
     def __init__(self):
-        # mongourl = "mongodb://admin:adminpassword@localhost:27017"
         with open("configuration/configuration.yaml") as f:
             self.CONFIG = yaml.load(f, Loader=yaml.FullLoader)
         mongourl = self.CONFIG["mongourl"]
