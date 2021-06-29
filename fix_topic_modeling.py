@@ -17,7 +17,6 @@ class FixTopicProcess:
         with open("configuration/configuration.yaml") as f:
             self.CONFIG = yaml.load(f, Loader=yaml.FullLoader)
         self.LOGGER = self.__get_logger()
-        # mongourl = "mongodb://admin:adminpassword@localhost:27017"
         mongourl = self.CONFIG["mongourl"]
         self.MONGO_CLIENT = MongoClient(mongourl)
         self.lda_module = None
